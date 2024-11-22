@@ -4,10 +4,19 @@ Innovative browser extension that uses advanced Large Language Models (LLMs) and
 
 ## How to:
 
+### Enable Chrome Built-in AI Features:
+
+1. Enable **APIs for Gemini Nano**: [chrome://flags/#prompt-api-for-gemini-nano](chrome://flags/#prompt-api-for-gemini-nano)
+2. Enable **Language detection web platform API**: [chrome://flags/#language-detection-api](chrome://flags/#language-detection-api)
+3. Set **Enables optimization guide on device** to *Enabled BypassPerfAndTextSafety*: [chrome://flags/#optimization-guide-on-device-model](chrome://flags/#optimization-guide-on-device-model)
+4. Open the JS console and execute `await ai.languageModel.create()` **TWICE**! (the first time an error will appear)
+5. Visit the **Components** page: [chrome://components](chrome://components)
+6. Check if the **Optimization Guide On Device Model** component is present in the list and wait for its status to become *Up-to-date*
+7. Check status of the model by running this code in the JS console: `await ai.languageModel.capabilities()`. It should state *readily*.
 ## Examples:
 
-We provide 3 example fishing pages for testing:
+Three example fishing pages are provided for testing and you can run access them on localhost:
 
-- [Facebook](https://kmanev073.github.io/google_chrome_built_in_ai_challenge/facebook/)
-- [Microsoft](https://kmanev073.github.io/google_chrome_built_in_ai_challenge/microsoft/)
-- [Google](https://kmanev073.github.io/google_chrome_built_in_ai_challenge/google/)
+- Facebook Login: `command`
+- Microsoft Login: `command`
+- Google Login: `command`
