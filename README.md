@@ -8,6 +8,6 @@ Innovative browser extension that uses advanced Large Language Models (LLMs) and
 
 We provide 3 example fishing pages for testing:
 
-- [Facebook](https://github.com/kmanev073/google_chrome_built_in_ai_challenge/tree/main/docs/facebook/)
-- [Microsoft](https://github.com/kmanev073/google_chrome_built_in_ai_challenge/tree/main/docs/microsoft/)
-- [Google](https://github.com/kmanev073/google_chrome_built_in_ai_challenge/tree/main/docs/google/)
+- [Facebook](https://kmanev073.github.io/google_chrome_built_in_ai_challenge/facebook/)
+- [Microsoft](https://kmanev073.github.io/google_chrome_built_in_ai_challenge/microsoft/)
+- [Google](https://kmanev073.github.io/google_chrome_built_in_ai_challenge/google/)
